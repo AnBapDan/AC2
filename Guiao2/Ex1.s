@@ -1,4 +1,5 @@
   .equ RESET_CORE_TIMER,12
+  .equ READ_CORE_TIMER,11
   .equ PUT_CHAR,3
   .equ PRINT_INT,6
   .data
