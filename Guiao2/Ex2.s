@@ -5,11 +5,8 @@
     .equ K, 20000
     .data
     .text
-    .globl main
+    .globl delay
 
-main:  addi $a0, $0, 1
-       jal delay
-       jr $ra
 
 delay: addiu $sp, $sp, -8
        sw $ra, 0($sp)
